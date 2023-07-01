@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>INTE.com</title>
+        <link rel="stylesheet" type="text/css" href="./style2.css">
+    </head>
+    <body>
+        <main>
+        <form>
+        <div class="registro">
+            <h2>Formulario de registro</h2>
+            <br>
+            <h4>Datos personales</h4>
+            <label for="Nombre">Nombres y Apellidos: </label>
+            <br>
+            <input type="text" name="Nombre" placeholder="Nombre" required>
+            <input type="text" name="Apellido" placeholder="Apellido" required>
+            <br>
+            <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+            <br>
+            <input type="date" name="fecha_nacimiento"required>
+            <br>
+            <label for="genero">Sexo:</label>
+            <input type="radio" name="sexo" id="Hombre" value="Hombre">
+            <label for="Hombre">M</label>
+            <input type="radio" name="sexo" id="Mujer" value="Mujer">
+            <label for="Mujer">F</label>
+            <h4>Datos de contacto</h4>
+            <input type="email" name="Corre" placeholder="Correo" required>
+            <input type="tel" id="Telefono" name="Telefono" placeholder="Telefono_cel" pattern="[0-9]{10}" required>
+            <h4>Indique usuario y contrasena</h4>
+            <input type="text" name="Usuario" placeholder="Usuario">
+            <input type="password" name="password" placeholder="password" required>
+            <br>
+            <label for="Terminos">Acepta los <a href="#"> terminos y condiciones</a>.</label>
+            <input type="checkbox" name="Terminos" required>
+            <br>
+            <input type="submit" value="Registrar">
+            <br>
+            <p><a href="./index.html">¿Ya tienes cuenta?</a></p>
+        </div>
+        
+        </form>
+        </main>
+    </body>
+</html>
